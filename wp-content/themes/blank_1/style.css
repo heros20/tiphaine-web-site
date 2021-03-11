@@ -1,0 +1,312 @@
+/*!
+Theme Name: blank_1
+Theme URI: http://underscores.me/
+Author: Heros20
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: blank_1
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Pour des raisons de clarté le code ci-dessous n'est pas prefixer
+    il faudra le faire lors de la mise en production
+    https://autoprefixer.github.io/
+*/
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* clear */
+.clear:before,
+.clear:after {
+  content: " ";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+.clear {
+  *zoom: 1;
+}
+
+html {
+  font-size: 100%;
+}
+body {
+  font: 500 15px/1.4 "Montserrat", sans-serif;
+  color: #3b3b3b;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+.wrap {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+} /* permet de centrer  les grandes div pour preparer le responsive */
+.wrap2 {
+  max-width: 1324px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.wrap3 {
+  max-width: 1235px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.wrap4 {
+  max-width: 785px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.fontAlfa {
+  font-family: "Alfa Slab One", cursive;
+} /* permet d'ajouter cette police d'écriture */
+.fontBebas {
+  font-family: "Bebas Neue", cursive;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+} /* mets le text en gris et retire les decoration des liens */
+.home {
+  background-color: rgb(230, 226, 231);
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#masthead {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.head {
+  background-color: rgb(225, 218, 228);
+}
+.B {
+  text-align: center;
+  background-color: rgb(209, 204, 198);
+}
+#page .titre {
+  background-color: rgb(200, 199, 199);
+  font-size: 1.7em;
+  font-weight: lighter;
+  color: rgb(56, 27, 1);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 75px;
+  text-align: center;
+}
+#masthead .site-branding img {
+  width: 25%;
+}
+#masthead .main-navigation ul {
+  display: flex;
+}
+
+#masthead .main-navigation a {
+  font-size: 1em;
+  margin: 0 10px;
+}
+#masthead .main-navigation a:hover {
+  color: rgb(88, 76, 67);
+}
+.bigflex {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexslider {
+  width: 40%;
+}
+.big-doc {
+  background-color: rgb(179, 170, 170);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.doc h2 {
+  margin-bottom: 2%;
+  font-size: 1.8em;
+}
+.doc p {
+  font-size: 0.7em;
+}
+#colophon {
+  background-color: rgb(185, 183, 183);
+  text-align: center;
+  padding: 100px;
+}
+.get {
+  background-color: rgb(14, 59, 59);
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+  max-width: 500px;
+  padding: 10px;
+  margin: 20px auto;
+}
+#colophon .site-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#colophon .site-info h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: bisque;
+}
+#colophon .site-info p {
+  color: rgb(61, 50, 36);
+}
+#colophon .site-info .fa-facebook {
+  color: rgb(61, 50, 36);
+  font-size: 2em;
+}
+#colophon .site-info .fa-facebook:hover {
+  color: blue;
+  transition: all 0.4s;
+}
